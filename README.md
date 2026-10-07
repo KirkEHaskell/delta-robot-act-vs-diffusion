@@ -248,7 +248,7 @@ through V4L2 controls. For your own data, record with the cameras on auto
 ## License
 
 - **Code and firmware:** [MIT](LICENSE)
-- **Dataset, CAD files, videos and figures:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- **Dataset, CAD files, videos and figures:** [CC BY 4.0](LICENSE-DATA.md).
   Free to use, including commercially and for training models, with attribution.
 
 Built with [LeRobot](https://github.com/huggingface/lerobot). The policies are
