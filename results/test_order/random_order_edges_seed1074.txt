@@ -1,0 +1,13 @@
+# seed 1074
+ 1. diffusion_n100_s5k_005000
+ 2. act_n10_s50k_050000
+ 3. act_n25_s50k_050000
+ 4. diffusion_n100_s50k_050000
+ 5. act_n100_s50k_020000
+ 6. diffusion_n10_s50k_050000
+ 7. diffusion_n50_s50k_050000
+ 8. act_n100_s50k_005000
+ 9. act_n100_s50k_050000
+10. act_n50_s50k_050000
+11. diffusion_n100_s20k_020000
+12. diffusion_n25_s50k_050000

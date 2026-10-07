@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this dataset, code or these models, please cite it as below."
+title: "ACT vs. Diffusion Policy on a Home-Built Delta Robot: Data and Training-Length Scaling for Real-World Pick-and-Place"
+authors:
+  - name: "Kirk Haskell"
+date-released: 2026-10-06
+url: "https://github.com/KirkEHaskell/delta-robot-act-vs-diffusion"
+license: MIT
+keywords:
+  - robotics
+  - imitation learning
+  - diffusion policy
+  - ACT
+  - LeRobot
+  - delta robot

@@ -1,0 +1,14 @@
+# Install PyTorch for your machine first (https://pytorch.org). The study used torch 2.6.0 (CUDA 12.4)
+# for training and torch 2.11 (CPU) on the laptop for ACT inference.
+lerobot>=0.5.0,<0.6     # study: 0.5.0 for training, 0.5.2 for laptop inference
+diffusers               # needed by LeRobot's Diffusion Policy
+av                      # PyAV: MJPG camera capture + video decoding (--dataset.video_backend=pyav)
+pyserial
+numpy
+pandas
+pyarrow
+scipy
+matplotlib
+huggingface_hub>=1.0,<2   # lerobot 0.5.x needs <2
+pygrabber; sys_platform == "win32"   # DirectShow camera enumeration by USB port (Windows)
+# Linux camera control also needs v4l2-ctl:  sudo apt install v4l-utils

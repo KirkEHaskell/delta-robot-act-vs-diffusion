@@ -1,0 +1,5 @@
+act_b32_w8: rc=0 wall=63s steady updt_s=0.192 data_s=0.023 => ~4.65 step/s | peak GPU 6420 MiB, peak RAM 8960 MiB, swap 0 MiB | ckpt 591M | last loss 2.740
+act_b32_w8_amp: rc=0 wall=60s steady updt_s=0.192 data_s=0.022 => ~4.66 step/s | peak GPU 6405 MiB, peak RAM 9201 MiB, swap 0 MiB | ckpt 591M | last loss 2.740
+act_b64_w8: rc=0 wall=112s steady updt_s=0.344 data_s=0.107 => ~2.22 step/s | peak GPU 11739 MiB, peak RAM 11249 MiB, swap 0 MiB | ckpt 591M | last loss 2.527
+act_b32_w8_bf16: rc=0 wall=63s steady updt_s=0.179 data_s=0.038 => ~4.61 step/s | peak GPU 6139 MiB, peak RAM 9629 MiB, swap 0 MiB | GPU util med 75% | ckpt 591M | last loss 2.740
+diffusion_b32_w8: rc=0 wall=111s steady updt_s=0.254 data_s=0.021 => ~3.64 step/s | peak GPU 16117 MiB, peak RAM 11391 MiB, swap 3461 MiB | GPU util med 94% | ckpt 3.1G | last loss 0.136

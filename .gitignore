@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# large / downloaded things live outside git (Hugging Face)
+data/
+models/
+outputs/
+hub/staging/
+
+# robot session outputs
+robot/test_results/
+robot/checkpoints/
+robot/captures/
+
+.DS_Store
+Thumbs.db
+paper/paper_overleaf.zip
